@@ -1,0 +1,267 @@
+{
+  "name": "Hanrui Chen",
+  "name_zh": "陈瀚锐",
+  "role": "Undergraduate Student",
+  "affiliation": "Hangzhou Dianzi University & ITMO University",
+  "email": "chenhanrui@hdu.edu.cn",
+  "about": "I am an undergraduate student in Computer Science and Technology at Hangzhou Dianzi University and ITMO University. My research interests center on natural language processing (NLP), large language models (LLMs), and AI agents. I am particularly interested in multi-agent collaboration, reliable reasoning, and efficient representations for systems that understand tasks, use tools, and interact with their environments.",
+  "about_extra": "My work involves zero-shot object navigation, neuro-symbolic multi-agent systems and controllable data synthesis, and model performance evaluation with few labels. I am also interested in KV cache compression, inference acceleration, long-context processing, and latent-space representation and reasoning, aiming to improve reasoning efficiency, reliability, and generalization under limited compute and memory budgets. In addition, I actively explore applications of LLMs and agent systems in embodied intelligence and AI for Science.",
+  "interests": [
+    [
+      "Large Language Models & Multi-agent Systems",
+      "NLP, LLMs, agents, task planning and tool use, multi-agent collaboration, memory and reflection, neuro-symbolic reasoning, controllable data synthesis"
+    ],
+    [
+      "Latent Space & Efficient Inference",
+      "latent-space representation and reasoning, compact semantic representations, KV cache compression, inference acceleration, long-context processing, parameter-efficient adaptation"
+    ],
+    [
+      "Embodied Intelligence",
+      "zero-shot object navigation, vision-language reasoning, intent alignment, reflective verification"
+    ],
+    [
+      "AI for Science & Trustworthy Evaluation",
+      "scientific data synthesis, evidence-grounded reasoning, few-label performance prediction, uncertainty-aware evaluation"
+    ]
+  ],
+  "news": [
+    {
+      "label": "2026.11",
+      "date": "2026-11",
+      "text": "Won a Silver Medal in the 2026 International Collegiate Programming Contest (ICPC) Asia Wuhan Regional Contest!",
+      "href": "#awards"
+    },
+    {
+      "label": "2026.11",
+      "date": "2026-11",
+      "text": "One technical report has been accepted to PAIEC Workshop at NeurIPS 2026 (CCF-A)!",
+      "paper": "bask"
+    },
+    {
+      "label": "2026.09",
+      "date": "2026-09",
+      "text": "One paper has been accepted to Frontiers in Psychiatry!",
+      "paper": "note2narr"
+    },
+    {
+      "label": "2025.11",
+      "date": "2025-11",
+      "text": "One paper has been accepted to AAAI 2026 (CCF-A)!",
+      "paper": "cos"
+    }
+  ],
+  "papers": [
+    {
+      "id": "cos",
+      "tag": "AAAI 2026 (CCF-A)",
+      "title": "Chain-of-Search: Parameter-Efficient Reasoning for Zero-Shot Object Navigation",
+      "authors": "Hanrui Chen, Liqi Yan, Qifan Wang, Jianhui Zhang, Fangli Guan, Pan Li",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2026, CCF-A), 40(3):1721–1729, 2026",
+      "status": "Published",
+      "image": "assets/cos.png",
+      "image_alt": "CoS framework with multi-map construction, parameter-efficient intent alignment, and reflection-guided destination verification.",
+      "description": "Efficient zero-shot navigation through benefit-cost-aware mapping, intent alignment, and reflective destination verification.",
+      "links": [
+        [
+          "PDF ↗",
+          "https://ojs.aaai.org/index.php/AAAI/article/download/37150/41112"
+        ]
+      ],
+      "bibtex": "@inproceedings{chen2026chain,\n  title={Chain-of-Search: Parameter-Efficient Reasoning for Zero-Shot Object Navigation},\n  author={Chen, Hanrui and Yan, Liqi and Wang, Qifan and Zhang, Jianhui and Guan, Fangli and Li, Pan},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={40},\n  number={3},\n  pages={1721--1729},\n  year={2026},\n  doi={10.1609/aaai.v40i3.37150}\n}",
+      "co_first_authors": [
+        "Hanrui Chen",
+        "Liqi Yan"
+      ],
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/37150"
+    },
+    {
+      "id": "bask",
+      "tag": "NeurIPS 2026 (CCF-A)",
+      "title": "BASK: Budget-Adaptive Semantic Kernel Shrinkage for Predictive AI Evaluation",
+      "authors": "Hanrui Chen",
+      "venue": "Technical Report · Predictive AI Evaluation Competition (PAIEC) Workshop at NeurIPS 2026 (CCF-A)",
+      "status": "Accepted",
+      "image": "assets/bask.svg",
+      "image_alt": "BASK combines an aggregate probability estimate with a budget-dependent semantic correction.",
+      "description": "Predicting AI performance from sparse responses with budget-adaptive semantic kernel shrinkage.",
+      "links": [
+        [
+          "Report ↗",
+          "https://openreview.net/forum?id=z6uJmODx4M"
+        ]
+      ],
+      "bibtex": "@techreport{chen2026bask,\n  title={BASK: Budget-Adaptive Semantic Kernel Shrinkage for Predictive AI Evaluation},\n  author={Chen, Hanrui},\n  institution={Hangzhou Dianzi University},\n  type={Technical Report},\n  year={2026},\n  note={PAIEC Workshop at NeurIPS 2026},\n  url={https://openreview.net/forum?id=z6uJmODx4M}\n}",
+      "url": "https://openreview.net/forum?id=z6uJmODx4M",
+      "tag_detail": "Workshop"
+    },
+    {
+      "id": "note2narr",
+      "tag": "Front. Psychiatry",
+      "title": "Note2Narr: A Neuro-Symbolic Multi-Agent System for Synthesizing High-Fidelity Training Narratives from Sparse Counselor Notes",
+      "authors": "Hanrui Chen, Cheng Yang, Yilin Hu, Jiong Lin, Beining Wu, Hanyin Zhang, Fu Li",
+      "venue": "Frontiers in Psychiatry, 17:1948130, 2026",
+      "status": "Published",
+      "image": "assets/note2narr.png",
+      "image_alt": "Overview of the Note2Narr neuro-symbolic multi-agent framework.",
+      "description": "Controllable narrative synthesis with a dynamic counseling tree, supervisory reasoning, and adaptive data augmentation.",
+      "links": [
+        [
+          "PDF ↗",
+          "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1948130/pdf"
+        ]
+      ],
+      "bibtex": "@article{chen2026note2narr,\n  title={Note2Narr: A Neuro-Symbolic Multi-Agent System for Synthesizing High-Fidelity Training Narratives from Sparse Counselor Notes},\n  author={Chen, Hanrui and Yang, Cheng and Hu, Yilin and Lin, Jiong and Wu, Beining and Zhang, Hanyin and Li, Fu},\n  journal={Frontiers in Psychiatry},\n  volume={17},\n  pages={1948130},\n  year={2026},\n  doi={10.3389/fpsyt.2026.1948130}\n}",
+      "url": "https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2026.1948130/full"
+    }
+  ],
+  "awards": [
+    [
+      "2026",
+      "Silver Medal",
+      "International Collegiate Programming Contest (ICPC), Asia Wuhan Regional Contest",
+      "Regional",
+      "Key Member"
+    ],
+    [
+      "2026",
+      "National First Prize",
+      "15th Challenge Cup China College Students Entrepreneurship Competition — Main Competition",
+      "National",
+      "Key Member"
+    ],
+    [
+      "2025–2026",
+      "National First Prize",
+      "China Collegiate Computing Contest — Group Programming Ladder Tournament, National Finals",
+      "National",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "National First Prize",
+      "China Collegiate Computer Games Competition and the 19th China Computer Games Championship",
+      "National",
+      "Project Leader"
+    ],
+    [
+      "2025",
+      "National-level Project Approval",
+      "National College Student Innovation and Entrepreneurship Training Program — Agent Universe",
+      "National",
+      "Key Member"
+    ],
+    [
+      "2025–2026",
+      "Honorable Mention",
+      "Mathematical Contest in Modeling / Interdisciplinary Contest in Modeling (MCM/ICM)",
+      "International",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "National Second Prize",
+      "Teddy Cup Data Mining Challenge",
+      "National",
+      "Key Member"
+    ],
+    [
+      "2026",
+      "Bronze Medal",
+      "International Collegiate Programming Contest (ICPC), Asia Xi'an Regional Contest",
+      "Regional",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "Bronze Medal",
+      "International Collegiate Programming Contest (ICPC), Asia Chengdu Regional Contest",
+      "Regional",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "Bronze Medal",
+      "China Collegiate Programming Contest (CCPC), Zhengzhou Regional Contest",
+      "Regional",
+      "Key Member"
+    ],
+    [
+      "2026",
+      "National Third Prize",
+      "National College Students Statistical Modeling Competition",
+      "National",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "National Third Prize",
+      "2nd National ICT Industry–Education Integration Competition",
+      "National",
+      "Key Member"
+    ],
+    [
+      "2026",
+      "Gold Award",
+      "Challenge Cup Zhejiang College Students Entrepreneurship Competition",
+      "Provincial",
+      "Key Member"
+    ],
+    [
+      "2026",
+      "Provincial Second Prize",
+      "Chinese Collegiate Computing Competition, Zhejiang Provincial Competition",
+      "Provincial",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "Provincial Second Prize",
+      "1st Zhejiang Provincial Artificial Intelligence Competition",
+      "Provincial",
+      "Key Member"
+    ],
+    [
+      "2025–2026",
+      "Zhejiang Provincial Government Scholarship",
+      "",
+      "Provincial",
+      "Recipient"
+    ],
+    [
+      "Every semester",
+      "First-Class University Scholarship",
+      "Hangzhou Dianzi University",
+      "University",
+      "Recipient"
+    ],
+    [
+      "2026",
+      "University First Prize",
+      "Challenge Cup College Students Entrepreneurship Competition — Hangzhou Dianzi University Selection",
+      "University",
+      "Key Member"
+    ],
+    [
+      "2025",
+      "University First Prize",
+      "Hangzhou Dianzi University Mathematical Modeling Competition",
+      "University",
+      "Key Member"
+    ],
+    [
+      "2024",
+      "University First Prize",
+      "Huawei Cup Hangzhou Dianzi University Freshman Programming Contest",
+      "University",
+      "Key Member"
+    ],
+    [
+      "2024",
+      "University First Prize",
+      "Meijiayu Cup Hangzhou Dianzi University Freshman Mathematical Modeling Competition",
+      "University",
+      "Key Member"
+    ]
+  ],
+  "competitive_programming": "I am also active in competitive programming and received an ICPC Asia Regional silver medal. I have served as a problem setter for the Guangxi Collegiate Programming Contest (GXCPC), the Inner Mongolia Collegiate Programming Contest (NMCPC), and the Hangzhou Dianzi University Multi-University Training Contest, among other contests."
+}
