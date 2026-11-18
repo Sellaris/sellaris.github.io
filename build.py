@@ -67,6 +67,13 @@ def build(locale):
             scholarships += f'<li><span class="scholarship-year">{e(tr(year))}</span>, <strong>{e(tr(award))}</strong>{suffix}{stop}</li>'
     awards += f'<div class="award-group scholarships"><h3>{e(tr("Scholarships"))}</h3><ul class="awards">{scholarships}</ul></div>'
 
+    visitor_map = ''
+    if c.get('visitor_map'):
+        vm = c['visitor_map']
+        visitor_map = f'''<aside class="visitor-map" aria-label="{e(tr('Visitor Map'))}">
+        <a href="{e(vm['stats_url'], quote=True)}" target="_blank" rel="noopener noreferrer" title="{e(tr('View visitor statistics'))}"><img src="{e(vm['image_url'], quote=True)}" width="250" height="140" alt="{e(tr('Visitor countries and pageviews'))}" decoding="async"></a>
+        <p class="visitor-map-note">{e(tr('Approximate locations · Flag Counter'))}</p></aside>'''
+
     language_switch = '<nav class="language-switch" aria-label="Language / 语言">'
     for code, label, page in [('en', 'English', 'index.html'), ('zh-CN', '中文', 'zh.html')]:
         current = ' aria-current="page"' if code == locale else ''
@@ -80,7 +87,7 @@ def build(locale):
     <h1>{e(primary_name)}<span lang="{secondary_lang}">{e(secondary_name)}</span></h1><p class="role">{e(tr(c['role']))}</p><p class="affiliation">{link('Hangzhou Dianzi University', 'https://www.hdu.edu.cn/')}<br>{link('ITMO University', 'https://en.itmo.ru/')}</p><p class="department">{e(tr("Computer Science and Technology"))}</p><p class="email">{link(c['email'], 'mailto:'+c['email'])}</p>
     <div class="profile-links">{link('CV ↗', 'assets/hanrui-chen-cv.pdf')}{link('Codeforces ↗', 'https://codeforces.com/profile/Sellaris')}</div>
     <nav aria-label="{e(tr("On this page"), quote=True)}"><a href="#about">{e(tr("About"))}</a><a href="#news">{e(tr("News"))}</a><a href="#publications">{e(tr("Publications"))}</a><a href="#awards">{e(tr("Honors"))}</a></nav>
-    <p class="profile-note">{e(tr("Hangzhou, China"))}</p></header>
+    <p class="profile-note">{e(tr("Hangzhou, China"))}</p>{visitor_map}</header>
     <main id="main"><section id="about"><h2>{e(tr("About Me"))}</h2><p>{e(tr(c['about']))}</p><p>{e(tr(c['about_extra']))}</p><p>{e(tr(c['competitive_programming']))}</p></section>
     <section id="interests"><h2>{e(tr("Research Interests"))}</h2><ul class="interests">{interests}</ul></section>
     <section id="news"><h2>{e(tr("News"))}</h2><ol class="news-list">{news}</ol></section>

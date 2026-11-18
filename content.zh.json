@@ -111,5 +111,9 @@
   "scientific data synthesis, evidence-grounded reasoning, few-label performance prediction, uncertainty-aware evaluation": "科学数据合成、基于证据的推理、少标签性能预测、不确定性感知评估",
   "NeurIPS 2026 (CCF-A)": "NeurIPS 2026（CCF-A）",
   "My work involves zero-shot object navigation, neuro-symbolic multi-agent systems and controllable data synthesis, and model performance evaluation with few labels. I am also interested in KV cache compression, inference acceleration, long-context processing, and latent-space representation and reasoning, aiming to improve reasoning efficiency, reliability, and generalization under limited compute and memory budgets. In addition, I actively explore applications of LLMs and agent systems in embodied intelligence and AI for Science.": "我的工作涉及零样本目标导航、神经符号多智能体和可控数据合成，以及少标签条件下的模型性能评估。我也关注 KV 缓存压缩、推理加速与长上下文处理，以及隐空间表示和推理，希望在有限计算与存储预算下提升模型的推理效率、可靠性与泛化能力。此外，我积极探索 LLM 和 Agent 系统在具身智能和 AI for Science 中的应用。",
-  "Regional, Provincial & University Prizes": "区域级、省级与校级奖项"
+  "Regional, Provincial & University Prizes": "区域级、省级与校级奖项",
+  "Visitor Map": "访客地图",
+  "Visitor countries and pageviews": "访客国家分布与浏览次数",
+  "View visitor statistics": "查看访问统计",
+  "Approximate locations · Flag Counter": "大致访问地区 · Flag Counter"
 }
