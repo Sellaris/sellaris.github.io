@@ -16,10 +16,6 @@
       "latent-space representation and reasoning, compact semantic representations, KV cache compression, inference acceleration, long-context processing, parameter-efficient adaptation"
     ],
     [
-      "Embodied Intelligence",
-      "zero-shot object navigation, vision-language reasoning, intent alignment, reflective verification"
-    ],
-    [
       "AI for Science & Trustworthy Evaluation",
       "scientific data synthesis, evidence-grounded reasoning, few-label performance prediction, uncertainty-aware evaluation"
     ]
