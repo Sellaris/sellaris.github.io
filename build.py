@@ -88,7 +88,7 @@ def build(locale):
     <div class="profile-links">{link('CV ↗', 'assets/hanrui-chen-cv.pdf')}{link('Codeforces ↗', 'https://codeforces.com/profile/Sellaris')}</div>
     <nav aria-label="{e(tr("On this page"), quote=True)}"><a href="#about">{e(tr("About"))}</a><a href="#news">{e(tr("News"))}</a><a href="#publications">{e(tr("Publications"))}</a><a href="#awards">{e(tr("Honors"))}</a></nav>
     <p class="profile-note">{e(tr("Hangzhou, China"))}</p>{visitor_map}</header>
-    <main id="main"><section id="about"><h2>{e(tr("About Me"))}</h2><p>{e(tr(c['about']))}</p><p>{e(tr(c['about_extra']))}</p><p>{e(tr(c['competitive_programming']))}</p></section>
+    <main id="main"><section id="about"><h2>{e(tr("About Me"))}</h2><p>{e(tr(c['about']))}</p><p>{e(tr(c['about_extra']))}</p><p>{e(tr(c['competitive_programming']))}</p><p><strong>{e(tr(c['phd_search']))}</strong></p></section>
     <section id="interests"><h2>{e(tr("Research Interests"))}</h2><ul class="interests">{interests}</ul></section>
     <section id="news"><h2>{e(tr("News"))}</h2><ol class="news-list">{news}</ol></section>
     <section id="publications"><h2>{e(tr("Publications"))}</h2><p class="section-note">{e(tr("Selected papers"))}</p>{papers}</section>
